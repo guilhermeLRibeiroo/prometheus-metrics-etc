@@ -1,0 +1,86 @@
+# -------------------------------
+# Maven
+# -------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://maven.apache.org/wrapper/#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+
+# -------------------------------
+# IntelliJ / Eclipse / VS Code
+# -------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+logs/
+*.out
+
+# -------------------------------
+# Environment & Secrets
+# -------------------------------
+.env
+.env.*
+*.secret
+*.pem
+*.crt
+*.key
+
+# -------------------------------
+# Docker
+# -------------------------------
+*.tar
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+**/docker_data/
+**/mysql_data/
+**/prometheus_data/
+**/grafana_data/
+**/docker-data/
+**/mysql-data/
+**/prometheus-data/
+**/grafana-data/
+
+# -------------------------------
+# Nginx
+# -------------------------------
+nginx/cache/
+nginx/logs/
+nginx/temp/
+
+# -------------------------------
+# MySQL
+# -------------------------------
+*.sql~
+*.sql-journal
+*.db
+mysql/data/
+mysql/logs/
+
+# -------------------------------
+# OS / Misc
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.~backup~
